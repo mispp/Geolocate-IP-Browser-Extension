@@ -1,17 +1,9 @@
-IP Address & Geolocation (IP Geolocator)
-==============================
+Extension which shows which country are you connecting from. 
+Usefull when changing VPN providers to quickly identify availalble content.
 
-A browser extension which shows you the origin of your IP address and several geolocational informations.
-
-![chrome-extension](https://aykutcevik.com/blog/media/chrome-extension-screenshot-1.png)
-
-Supported browsers
-==============================
-* [Chrome Webstore](https://chrome.google.com/webstore/detail/ip-geolocator/lfncinhjhjgebfnnblppmbmkgjgifhdf)
-* [Firefox Add-ons](https://addons.mozilla.org/de/firefox/addon/ip-geolocator/)
-* [Opera Add-ons](https://addons.opera.com/de/extensions/details/ip-address-geolocation/)
+Uses https://airvpn.org/api/whatismyip/ to get external ip.
 
 
-"background": {
-    "scripts": ["js/background.js"]
-  },
+
+
+Forked from  AykutCevik / Geolocate-IP-Browser-Extension 
